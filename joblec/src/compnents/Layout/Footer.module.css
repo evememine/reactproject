@@ -1,0 +1,23 @@
+/* Footer */
+.Footer {
+  background-color: grey;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+  }
+  
+  .Footer__sns {
+    display: flex;
+  }
+  
+  .Footer__sns li {
+    margin: 0 10px;
+  }
+  
+  .Footer__menu {
+    display: flex;
+  }
+  
+  .Footer__menu li {
+    margin: 0 10px;
+  }
