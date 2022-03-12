@@ -24,12 +24,13 @@
     left: 20px;
     width: 80px;
     object-fit: contain;
+    top: 12px;
     
 }
 
 .button {
     position: fixed;
     right: 20px;
-    width: 30px;
+    top: 2%;
     object-fit: contain;
 }

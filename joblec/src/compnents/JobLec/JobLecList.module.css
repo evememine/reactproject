@@ -1,0 +1,11 @@
+.joblecs {
+    width: 90%;
+    margin: 2rem auto;
+    /* border: 2px dashed tomato; */
+}
+
+.joblecs ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}

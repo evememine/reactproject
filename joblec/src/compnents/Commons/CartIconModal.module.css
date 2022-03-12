@@ -1,0 +1,16 @@
+
+
+.modal {
+    border: none;
+    position: fixed;
+    bottom: 5vh;
+    right: 5%;
+    width: 8%;
+    height: 16%;
+    background-color: rgba(0,0,0,0);
+    z-index: 30; 
+    /* 앞으로 보내기, 뒤로 보내기 기능 */
+ 
+    
+}
+

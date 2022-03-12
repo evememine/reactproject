@@ -1,0 +1,424 @@
+{
+  "joblec": {
+    "A1": {
+      "date": "2022-03-14 5시",
+      "headcount": 24,
+      "image": "https://board.jinhak.com/BoardV1/Upload/Job/CatchDotProgram/Image/234_1118_095847.jpg",
+      "lecture": "AI 업계 취업을 위한 현실적인 방법",
+      "mentor": "김영숙"
+    },
+    "A10": {
+      "date": "2022-03-22 5시",
+      "headcount": 0,
+      "image": "https://board.jinhak.com/BoardV1/Upload/Job/CatchDotProgram/Image/234_1206_104328.jpg",
+      "lecture": "문과생도 이해하는 머신러닝 강의",
+      "mentor": "박찬형"
+    },
+    "A11": {
+      "date": "2022-03-22 6시",
+      "headcount": 32,
+      "image": "https://board.jinhak.com/BoardV1/Upload/Job/CatchDotProgram/Image/234_0215_102317.jpg",
+      "lecture": "머신러닝과 파이썬",
+      "mentor": "박찬휘"
+    },
+    "A12": {
+      "date": "2022-03-23 5시",
+      "headcount": 29,
+      "image": "https://board.jinhak.com/BoardV1/Upload/Job/CatchDotProgram/Image/234_0308_104200.jpg",
+      "lecture": "인공지능 공부 코스",
+      "mentor": "조승하"
+    },
+    "A13": {
+      "date": "2022-03-30 5시",
+      "headcount": 64,
+      "image": "https://board.jinhak.com/BoardV1/Upload/Job/CatchDotProgram/Image/234_0207_155826.jpg",
+      "lecture": "이것만 준비하면 나도 AI 개발자?",
+      "mentor": "송서연"
+    },
+    "A14": {
+      "date": "2022-03-31 5시",
+      "headcount": 27,
+      "image": "https://board.jinhak.com/BoardV1/Upload/Job/CatchDotProgram/Image/234_0304_101703.jpg",
+      "lecture": "AI 뭐부터 배워야 하나요?",
+      "mentor": "최도윤"
+    },
+    "A15": {
+      "date": "2022-03-31 6시",
+      "headcount": 40,
+      "image": "https://board.jinhak.com/BoardV1/Upload/Job/CatchDotProgram/Image/234_1206_105052.jpg",
+      "lecture": "무엇이든 물어보세요 | AI 편",
+      "mentor": "봉유준"
+    },
+    "A2": {
+      "date": "2022-03-14 6시",
+      "headcount": 36,
+      "image": "https://board.jinhak.com/BoardV1/Upload/Job/CatchDotProgram/Image/234_0302_102307.jpg",
+      "lecture": "AI 취업 공부법과 미래",
+      "mentor": "유지호"
+    },
+    "A3": {
+      "date": "2022-03-15 5시",
+      "headcount": 43,
+      "image": "https://board.jinhak.com/BoardV1/Upload/Job/CatchDotProgram/Image/234_0304_110315.jpg",
+      "lecture": "AI 취업을 위한 필요 역량은?",
+      "mentor": "김성재"
+    },
+    "A4": {
+      "date": "2022-03-15 6시",
+      "headcount": 4,
+      "image": "https://board.jinhak.com/BoardV1/Upload/Job/CatchDotProgram/Image/234_0302_101729.jpg",
+      "lecture": "머신러닝 엔지니어의 삶",
+      "mentor": "신승재"
+    },
+    "A5": {
+      "date": "2022-03-17 5시",
+      "headcount": 6,
+      "image": "https://board.jinhak.com/BoardV1/Upload/Job/CatchDotProgram/Image/234_0228_170844.jpg",
+      "lecture": "통계학 공부 어디까지 해야하나요?",
+      "mentor": "이진명"
+    },
+    "A6": {
+      "date": "2022-03-18 5시",
+      "headcount": 49,
+      "image": "https://board.jinhak.com/BoardV1/Upload/Job/CatchDotProgram/Image/234_1210_101111.jpg",
+      "lecture": "대학원을 꼭 가야만 할까?",
+      "mentor": "서하준"
+    },
+    "A7": {
+      "date": "2022-03-18 6시",
+      "headcount": 80,
+      "image": "https://board.jinhak.com/BoardV1/Upload/Job/CatchDotProgram/Image/234_0308_103133.jpg",
+      "lecture": "네이버 합격 스펙 공개",
+      "mentor": "양지현"
+    },
+    "A8": {
+      "date": "2022-03-21 5시",
+      "headcount": 53,
+      "image": "https://board.jinhak.com/BoardV1/Upload/Job/CatchDotProgram/Image/234_0110_114610.jpg",
+      "lecture": "카카오 현직자가 바라본 AI 취업",
+      "mentor": "강민준"
+    },
+    "A9": {
+      "date": "2022-03-21 6시",
+      "headcount": 49,
+      "image": "https://board.jinhak.com/BoardV1/Upload/Job/CatchDotProgram/Image/234_0308_110355.jpg",
+      "lecture": "AI vs 머신러닝 vs 딥러닝",
+      "mentor": "이수현"
+    },
+      "B1": {
+      "date": "2022-03-14 5시",
+      "headcount": 45,
+      "image": "https://board.jinhak.com/BoardV1/Upload/Job/CatchDotProgram/Image/234_1206_105052.jpg",
+      "lecture": "개발자 직무 가이드",
+      "mentor": "최은아"
+    },
+    "B10": {
+      "date": "2022-03-22 6시",
+      "headcount": 75,
+      "image": "https://board.jinhak.com/BoardV1/Upload/Job/CatchDotProgram/Image/234_0302_101331.jpg",
+      "lecture": "JAVA 백엔드 개발",
+      "mentor": "전성진"
+    },
+    "B11": {
+      "date": "2022-03-24 5시",
+      "headcount": 4,
+      "image": "https://board.jinhak.com/BoardV1/Upload/Job/CatchDotProgram/Image/234_0211_095519.jpg",
+      "lecture": "백엔드 용어 파헤치기",
+      "mentor": "윤서영"
+    },
+    "B12": {
+      "date": "2022-03-24 6시",
+      "headcount": 43,
+      "image": "https://board.jinhak.com/BoardV1/Upload/Job/CatchDotProgram/Image/234_0303_094345.jpg",
+      "lecture": "처음쓰는 경력기술서",
+      "mentor": "신수연"
+    },
+    "B13": {
+      "date": "2022-03-29 5시",
+      "headcount": 34,
+      "image": "https://board.jinhak.com/BoardV1/Upload/Job/CatchDotProgram/Image/234_0228_160615.jpg",
+      "lecture": "백엔드 개발자 취업시리즈 포트폴리오",
+      "mentor": "남도현"
+    },
+    "B14": {
+      "date": "2022-03-29 6시",
+      "headcount": 54,
+      "image": "https://board.jinhak.com/BoardV1/Upload/Job/CatchDotProgram/Image/234_0307_112031.jpg",
+      "lecture": "코딩테스트 준비",
+      "mentor": "백이준"
+    },
+    "B15": {
+      "date": "2022-03-30 6시",
+      "headcount": 32,
+      "image": "https://board.jinhak.com/BoardV1/Upload/Job/CatchDotProgram/Image/234_0307_152620.jpg",
+      "lecture": "알고리즘 어떻게 공부해야 할까요?",
+      "mentor": "안정수"
+    },
+    "B2": {
+      "date": "2022-03-14 6시",
+      "headcount": 12,
+      "image": "https://board.jinhak.com/BoardV1/Upload/Job/CatchDotProgram/Image/234_0121_093040.jpg",
+      "lecture": "신입 개발자 면접 필수 질문 & 의도",
+      "mentor": "이민서"
+    },
+    "B3": {
+      "date": "2022-03-15 5시",
+      "headcount": 32,
+      "image": "https://board.jinhak.com/BoardV1/Upload/Job/CatchDotProgram/Image/234_1201_101447.jpg",
+      "lecture": "개발자 적성에 맞을까요?",
+      "mentor": "권주안"
+    },
+    "B4": {
+      "date": "2022-03-15 6시",
+      "headcount": 53,
+      "image": "https://board.jinhak.com/BoardV1/Upload/Job/CatchDotProgram/Image/234_0310_134608.jpg",
+      "lecture": "라이브코딩",
+      "mentor": "서재균"
+    },
+    "B5": {
+      "date": "2022-03-18 5시",
+      "headcount": 56,
+      "image": "https://board.jinhak.com/BoardV1/Upload/Job/CatchDotProgram/Image/234_0121_092441.jpg",
+      "lecture": "개발자의 하루",
+      "mentor": "김혜석"
+    },
+    "B6": {
+      "date": "2022-03-18 6시",
+      "headcount": 100,
+      "image": "https://board.jinhak.com/BoardV1/Upload/Job/CatchDotProgram/Image/234_0310_100052.jpg",
+      "lecture": "무엇이든 물어보세요 | 백엔드 편",
+      "mentor": "김장군"
+    },
+    "B7": {
+      "date": "2022-03-21 5시",
+      "headcount": 24,
+      "image": "https://board.jinhak.com/BoardV1/Upload/Job/CatchDotProgram/Image/234_1206_105052.jpg",
+      "lecture": "늦은 나이에 시작해도 될까요?",
+      "mentor": "최정웅"
+    },
+    "B8": {
+      "date": "2022-03-21 6시",
+      "headcount": 80,
+      "image": "https://board.jinhak.com/BoardV1/Upload/Job/CatchDotProgram/Image/234_0218_104336.jpg",
+      "lecture": "라인 백엔드 개발",
+      "mentor": "김준태"
+    },
+    "B9": {
+      "date": "2022-03-22 5시",
+      "headcount": 76,
+      "image": "https://board.jinhak.com/BoardV1/Upload/Job/CatchDotProgram/Image/234_0302_101331.jpg",
+      "lecture": "카카오엔터프라이즈 백엔드 개발",
+      "mentor": "이경숙"
+    },
+      "D1": {
+      "date": "2022-03-14 4시",
+      "headcount": 60,
+      "image": "https://board.jinhak.com/BoardV1/Upload/Job/CatchDotProgram/Image/234_1125_135055.jpg",
+      "lecture": "데이터 분야 직무 분석",
+      "mentor": "박재연"
+    },
+    "D10": {
+      "date": "2022-03-28 4시",
+      "headcount": 56,
+      "image": "https://board.jinhak.com/BoardV1/Upload/Job/CatchDotProgram/Image/234_0106_121911.jpg",
+      "lecture": "비공자를 위한 데이터분석",
+      "mentor": "한혜은"
+    },
+    "D11": {
+      "date": "2022-03-28 7시",
+      "headcount": 60,
+      "image": "https://board.jinhak.com/BoardV1/Upload/Job/CatchDotProgram/Image/234_0302_100920.jpg",
+      "lecture": "LG CNS 데이터 사이언티스",
+      "mentor": "김현욱"
+    },
+    "D12": {
+      "date": "2022-03-29 4시",
+      "headcount": 100,
+      "image": "https://board.jinhak.com/BoardV1/Upload/Job/CatchDotProgram/Image/234_0124_110652.jpg",
+      "lecture": "무엇이든 물어보세요 | 데이터분석 편",
+      "mentor": "박세훈"
+    },
+    "D13": {
+      "date": "2022-03-29 7시",
+      "headcount": 12,
+      "image": "https://board.jinhak.com/BoardV1/Upload/Job/CatchDotProgram/Image/234_0228_160653.jpg",
+      "lecture": "데이터 분석 VS 엔지니어",
+      "mentor": "원동훈"
+    },
+    "D14": {
+      "date": "2022-03-30 4시",
+      "headcount": 3,
+      "image": "https://board.jinhak.com/BoardV1/Upload/Job/CatchDotProgram/Image/234_0308_103714.jpg",
+      "lecture": "데이터 분석 산업동향",
+      "mentor": "임두현"
+    },
+    "D15": {
+      "date": "2022-03-31 4시",
+      "headcount": 2,
+      "image": "https://board.jinhak.com/BoardV1/Upload/Job/CatchDotProgram/Image/234_0304_095900.jpg",
+      "lecture": "데이터분석 취업 꿀팁",
+      "mentor": "김성민"
+    },
+    "D2": {
+      "date": "2022-03-15 4시",
+      "headcount": 66,
+      "image": "https://board.jinhak.com/BoardV1/Upload/Job/CatchDotProgram/Image/234_1230_100314.jpg",
+      "lecture": "데이터 직무에는 Story!",
+      "mentor": "온승태"
+    },
+    "D3": {
+      "date": "2022-03-22 4시",
+      "headcount": 100,
+      "image": "https://board.jinhak.com/BoardV1/Upload/Job/CatchDotProgram/Image/234_0107_093311.jpg",
+      "lecture": "취준생 맞춤 친절한 빅데이터",
+      "mentor": "조성준"
+    },
+    "D4": {
+      "date": "2022-03-22 7시",
+      "headcount": 30,
+      "image": "https://board.jinhak.com/BoardV1/Upload/Job/CatchDotProgram/Image/234_1104_115431.jpg",
+      "lecture": "빅데이터 취업 어려울까요?",
+      "mentor": "고경태"
+    },
+    "D5": {
+      "date": "2022-03-23 4시",
+      "headcount": 32,
+      "image": "https://board.jinhak.com/BoardV1/Upload/Job/CatchDotProgram/Image/234_1103_035156.jpg",
+      "lecture": "카카오 데이터 분석가가 되기까지",
+      "mentor": "이다희"
+    },
+    "D6": {
+      "date": "2022-03-23 7시",
+      "headcount": 19,
+      "image": "https://board.jinhak.com/BoardV1/Upload/Job/CatchDotProgram/Image/234_1210_100324.jpg",
+      "lecture": "빅데이터 신입사원의 취업 A to Z",
+      "mentor": "류재원"
+    },
+    "D7": {
+      "date": "2022-03-24 4시",
+      "headcount": 23,
+      "image": "https://board.jinhak.com/BoardV1/Upload/Job/CatchDotProgram/Image/234_0304_100351.jpg",
+      "lecture": "빅데이터, 매력적일수 밖에 없는 이유",
+      "mentor": "박경하"
+    },
+    "D8": {
+      "date": "2022-03-24 7시",
+      "headcount": 80,
+      "image": "https://board.jinhak.com/BoardV1/Upload/Job/CatchDotProgram/Image/234_1101_033213.jpg",
+      "lecture": "데이터엔지니어 커리어 성장의 핵심!",
+      "mentor": "김영애"
+    },
+    "D9": {
+      "date": "2022-03-25 4시",
+      "headcount": 21,
+      "image": "https://board.jinhak.com/BoardV1/Upload/Job/CatchDotProgram/Image/234_0302_141942.jpg",
+      "lecture": "현대카드 데이터사이언티스트",
+      "mentor": "김선희"
+    },
+      "F1": {
+      "date": "2022-03-14 4시",
+      "headcount": 79,
+      "image": "https://board.jinhak.com/BoardV1/Upload/Job/CatchDotProgram/Image/234_0204_095207.jpg",
+      "lecture": "반응형 웹페이지 쉽게 만드는 법",
+      "mentor": "곽형수"
+    },
+    "F10": {
+      "date": "2022-03-24 4시",
+      "headcount": 100,
+      "image": "https://board.jinhak.com/BoardV1/Upload/Job/CatchDotProgram/Image/234_0127_115212.jpg",
+      "lecture": "무엇이든 물어보세요 | 프론트엔드 편",
+      "mentor": "고상희"
+    },
+    "F11": {
+      "date": "2022-03-25 4시",
+      "headcount": 43,
+      "image": "https://board.jinhak.com/BoardV1/Upload/Job/CatchDotProgram/Image/234_1021_120848.jpg",
+      "lecture": "프론트엔드? 백엔드? 진로고민중이라면",
+      "mentor": "이승호"
+    },
+    "F12": {
+      "date": "2022-03-25 7시",
+      "headcount": 50,
+      "image": "https://board.jinhak.com/BoardV1/Upload/Job/CatchDotProgram/Image/234_0114_103201.jpg",
+      "lecture": "2022년 테크 트렌드",
+      "mentor": "이세연"
+    },
+    "F13": {
+      "date": "2022-03-28 4시",
+      "headcount": 60,
+      "image": "https://board.jinhak.com/BoardV1/Upload/Job/CatchDotProgram/Image/234_0124_111729.jpg",
+      "lecture": "네이버 웹 프론트엔드 개발",
+      "mentor": "홍승현"
+    },
+    "F14": {
+      "date": "2022-03-30 7시",
+      "headcount": 75,
+      "image": "https://board.jinhak.com/BoardV1/Upload/Job/CatchDotProgram/Image/234_1013_105928.jpg",
+      "lecture": "직방 앱 프론트엔드 개발",
+      "mentor": "최주원"
+    },
+    "F15": {
+      "date": "2022-03-31 4시",
+      "headcount": 79,
+      "image": "https://board.jinhak.com/BoardV1/Upload/Job/CatchDotProgram/Image/234_0218_100105.jpg",
+      "lecture": "토스 앱 프론트엔드 개발",
+      "mentor": "변지경"
+    },
+    "F2": {
+      "date": "2022-03-15 7시",
+      "headcount": 66,
+      "image": "https://board.jinhak.com/BoardV1/Upload/Job/CatchDotProgram/Image/234_0112_094113.jpg",
+      "lecture": "프론트엔드 개발자 미래 전망은?",
+      "mentor": "전창희"
+    },
+    "F3": {
+      "date": "2022-03-16 4시",
+      "headcount": 47,
+      "image": "https://board.jinhak.com/BoardV1/Upload/Job/CatchDotProgram/Image/234_0204_095828.jpg",
+      "lecture": "비전공자들을 위한 개발 공부법",
+      "mentor": "박진석"
+    },
+    "F4": {
+      "date": "2022-03-16 7시",
+      "headcount": 56,
+      "image": "https://board.jinhak.com/BoardV1/Upload/Job/CatchDotProgram/Image/234_0228_171416.jpg",
+      "lecture": "자바스크립트 면접 필수 질문",
+      "mentor": "이상지"
+    },
+    "F5": {
+      "date": "2022-03-18 4시",
+      "headcount": 100,
+      "image": "https://board.jinhak.com/BoardV1/Upload/Job/CatchDotProgram/Image/234_0310_095629.jpg",
+      "lecture": "좋은 포트폴리오 vs 나쁜 포트폴리오",
+      "mentor": "송성훈"
+    },
+    "F6": {
+      "date": "2022-03-18 7시",
+      "headcount": 99,
+      "image": "https://board.jinhak.com/BoardV1/Upload/Job/CatchDotProgram/Image/234_0111_092407.jpg",
+      "lecture": "깃허브 활용법",
+      "mentor": "진하은"
+    },
+    "F7": {
+      "date": "2022-03-21 4시",
+      "headcount": 46,
+      "image": "https://board.jinhak.com/BoardV1/Upload/Job/CatchDotProgram/Image/234_0127_121959.jpg",
+      "lecture": "웹개발 로드맵 총정리",
+      "mentor": "김소경"
+    },
+    "F8": {
+      "date": "2022-03-23 4시",
+      "headcount": 66,
+      "image": "https://board.jinhak.com/BoardV1/Upload/Job/CatchDotProgram/Image/234_0113_094158.jpg",
+      "lecture": "React 초보자 입문 강의",
+      "mentor": "임수영"
+    },
+    "F9": {
+      "date": "2022-03-23 7시",
+      "headcount": 73,
+      "image": "https://board.jinhak.com/BoardV1/Upload/Job/CatchDotProgram/Image/234_0310_095304.jpg",
+      "lecture": "코딩 독학하는 법",
+      "mentor": "정유진"
+    }
+  }
+}
