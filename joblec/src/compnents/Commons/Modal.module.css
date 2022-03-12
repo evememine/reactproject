@@ -8,12 +8,12 @@
 }
 
 .modal {
-    position: fixed;
+    position: absolute;
     top: 15vh;
     left: 5%;
     width: 90%;
     background-color: white;
-    z-index: 30; 
+    z-index: 40; 
     /* 앞으로 보내기, 뒤로 보내기 기능 */
  
     padding: 1rem;

@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     
     <div className={classes.Footer}>
-        <p class="classes.Footer__corp">&copy; 2022 Company, Inc</p>
+        <p className={classes.Footer__corp}>&copy; 2022 Company, Inc</p>
 
         <ul className={classes.Footer__menu}>
             <li><a href="#">Home</a></li>

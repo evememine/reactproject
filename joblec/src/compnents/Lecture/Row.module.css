@@ -1,0 +1,17 @@
+.row {
+    margin-left: 20px;
+    color: white;
+}
+
+.row__lectures {
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll; 
+    padding: 0 20px; 
+}
+
+.row__lectures::-webkit-scrollbar {
+    display: none;
+}
+
+
