@@ -4,7 +4,7 @@
 ### 팀원
 :balloon:김영애(데이터 구성, ROW 구현)
 <br>
-:mag:김준태(Slide 구현, ROW 구현)
+:mag:김준태(Slide 구현)
 <br>
 :sheep:양지현(Cart 구현)
 
@@ -37,8 +37,11 @@
 <li>신청버튼을 누르면 강의바구니에 강의를 담을 수 있음
 
 ### 3. Slide
+  
+ ![image](https://user-images.githubusercontent.com/97663140/158084109-b806ff9f-be37-495a-8cee-92b1898eba23.png)
 
-<li>시간 간격에 따라 주력하는 강의 정보가 주기적으로 바뀌는 기능입니다.
+
+<li>시간 간격에 따라 주력하는 인기 강의 정보를 보여주는 기능입니다.
 
 ### 4. Cart 
 
