@@ -1,9 +1,9 @@
 .header {
-    
+    position: fixed;
     top: 0;
     width: 100%;
     padding: 20px;
-    height: 30px;
+    height: 80px;
     z-index: 1;
     background-color: black;
 
@@ -21,16 +21,30 @@
 
 .logo {
     position: fixed;
-    left: 20px;
-    width: 80px;
+    left: 100px;
+    width: 180px;
     object-fit: contain;
-    top: 12px;
     
 }
 
 .button {
+    text-align: center;
     position: fixed;
     right: 20px;
-    top: 2%;
+    height: 39px;
     object-fit: contain;
+    background-color: black;
+    border:1px solid white;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:15px;
+    padding:3px 10px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #263666;
+}
+.button:hover {
+    background-color: white;
+    color: black;
 }

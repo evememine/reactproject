@@ -1,16 +1,14 @@
 import React, { useState } from "react";
-import Cart from "./compnents/Cart/Cart";
-import JobLecList from "./compnents/JobLec/JobLecList";
 import Footer from "./compnents/Layout/Footer";
 import Header from "./compnents/Layout/Header";
 import Main from "./compnents/Layout/Main";
+import Row from "./compnents/Row/Row";
+import Cart from "./compnents/Cart/Cart";
 import CartProvider from "./store/CartProvider";
+import Slide from "./compnents/Slide/Slide"
 
 
-
-
-const App = () => {
-
+function App() {
 
   const [cartIsShown, setCartIsShown] = useState(false);
   const [cartIconIsShown, setCartIconIsShown] = useState(true);
@@ -27,16 +25,18 @@ const App = () => {
 
 
   return (
-
     <CartProvider>
     {cartIsShown && <Cart onClose={closeCartHandler}/> }
     <Header onOpen={openCartHandler}/>
-     <Main>
-      <JobLecList/>
-     </Main>
+    <Main>
+      <Slide title="popularlec" fetchUrl="https://job-lecture-default-rtdb.firebaseio.com/popularlec.json" />
+      <Row title="Frontend" fetchUrl="https://job-lecture-default-rtdb.firebaseio.com/frontend.json" />
+      <Row title="Backend" fetchUrl="https://job-lecture-default-rtdb.firebaseio.com/backend.json" />
+      <Row title="Data" fetchUrl="https://job-lecture-default-rtdb.firebaseio.com/data.json" />
+      <Row title="AI" fetchUrl="https://job-lecture-default-rtdb.firebaseio.com/ai.json" />
+    </Main>
     <Footer/>
     </CartProvider>
-
   );
 }
 

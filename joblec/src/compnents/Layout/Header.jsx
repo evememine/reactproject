@@ -1,7 +1,6 @@
 import React from 'react'
-import CartButton from '../Cart/CartButton'
-
 import classes from './Header.module.css'
+import CartButton from '../Cart/CartButton'
 
 const Header = (props) => {
   return (

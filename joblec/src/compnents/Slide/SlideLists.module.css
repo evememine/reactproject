@@ -1,0 +1,31 @@
+.slide{
+    display: block;
+    text-align: center;
+    width: flex;
+    height: flex;
+    box-shadow: 0 4px 8px rgba(49, 49, 63, 0.8);
+}
+
+.imagestlye{
+    vertical-align: middle; 
+    width: 90%;
+    height: 60%;
+}
+.box{
+    padding-top: 50px;
+    height: 50vh;
+}
+.headtext{
+    
+    font-weight: 700;
+    font-size: 40px;
+    text-shadow: 2px 2px 6px white;
+    /* text-shadow: 3px 0 rgba(255, 255, 255, 0.505), 0 1px rgba(255, 255, 255, 0.466), 5px 0 rgba(255, 255, 255, 0.414), 0 -1px rgb(255, 255, 255); */
+}
+.text{
+    
+    color: white;
+    font-weight: bold;
+
+    text-shadow: 3px 3px 7px rgb(1, 1, 1);
+}
