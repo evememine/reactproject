@@ -50,9 +50,13 @@ const LectureLists = (props) => {
 
   
     return (
-        <div className={classes.lectures}>
-            {lecturesList}
-        </div> 
+        <>
+            <div className={classes.lectures}>
+                <button className={classes.pre__button}>◀</button>
+                {lecturesList}
+                <button className={classes.next__button}>▶</button>
+            </div>
+        </> 
   )
 }
 
