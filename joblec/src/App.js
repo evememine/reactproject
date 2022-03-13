@@ -2,9 +2,10 @@ import React, { useState } from "react";
 import Footer from "./compnents/Layout/Footer";
 import Header from "./compnents/Layout/Header";
 import Main from "./compnents/Layout/Main";
-import Row from "./compnents/Lecture/Row";
+import Row from "./compnents/Row/Row";
 import Cart from "./compnents/Cart/Cart";
 import CartProvider from "./store/CartProvider";
+import Slide from "./compnents/Slide/Slide"
 
 
 function App() {
@@ -28,7 +29,7 @@ function App() {
     {cartIsShown && <Cart onClose={closeCartHandler}/> }
     <Header onOpen={openCartHandler}/>
     <Main>
-      
+      <Slide title="popularlec" fetchUrl="https://job-lecture-default-rtdb.firebaseio.com/popularlec.json" />
       <Row title="Frontend" fetchUrl="https://job-lecture-default-rtdb.firebaseio.com/frontend.json" />
       <Row title="Backend" fetchUrl="https://job-lecture-default-rtdb.firebaseio.com/backend.json" />
       <Row title="Data" fetchUrl="https://job-lecture-default-rtdb.firebaseio.com/data.json" />

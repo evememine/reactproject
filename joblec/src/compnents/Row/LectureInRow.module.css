@@ -2,7 +2,7 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transition: 0.3s;
     width: 250px;
-    height: 250px;
+    height: flex;
     border: 1px solid rgba(0,0,0,.18);
     margin-bottom: 20px;
     margin-left: 20px;
@@ -20,6 +20,10 @@ img{
 .lecture__body {
     padding: 0 10px;
     color: black;
+}
+
+h4 {
+    height: 2rem;
 }
 
 h5 {

@@ -1,11 +1,10 @@
-import React, { useState } from 'react'
+import React, {  useState } from 'react'
 import CartContext from './CartContext'
 
 const CartProvider = (props) => {
   const [cartState, setCartState] = useState({
     items: [],
     totalAmount: 0
-
   });
 
   // cart에 lecture 데이터를 추가하는 메서드
@@ -16,12 +15,10 @@ const CartProvider = (props) => {
     // Add를 1개씩 여러번 추가하였을때 cart에 각각 listing 되지 않고,
     // 중복은 허락되지 않도록 해야함  
     
-    // 이미 동일한 id값이 book이 cart에 존재할 경우, 해당 book은 추가하지 않음 
     const existingCartItemIndex = cartState.items.findIndex(
         (cartItem) => cartItem.id === item.id
     );
 
-    // 동일한 id를 가진 lecture의 객체를 등록
     const existingCartItem = cartState.items[existingCartItemIndex];
 
     let updatedItems;
@@ -42,15 +39,30 @@ const CartProvider = (props) => {
 
   };
 
+  // const ifCartIsNull= ()=>
+
+// 하나씩 삭제하는 메서드
+  const removeItemFromCartHandler = (id) => {
+
+    const removedCartItem = cartState.items.filter((item)=> item.id !== id);
+
+    setCartState(
+      {items: removedCartItem , totalAmount: cartState.totalAmount-1}
+      )};
+
+// 전체 삭제 메서드
+  const removeAllItemFromCartHandler = ()=>{
+
+    setCartState({items: [], totalAmount: 0})
+  };
+
   const cartContext = {
       items: cartState.items,
       totalAmount: cartState.totalAmount,
       addItem: addItemToCartHandler,
+      removeItem: removeItemFromCartHandler,
+      removeAllItem: removeAllItemFromCartHandler,
   }
-
-  // 장바구니에 체크가 해제되면 강의 신청이 해제되는 메서드
-  // const deleteItemFromCartHandler = 
-
   return <CartContext.Provider value={cartContext}>{props.children}</CartContext.Provider>
 }
 
