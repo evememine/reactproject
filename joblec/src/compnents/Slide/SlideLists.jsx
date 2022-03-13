@@ -1,28 +1,19 @@
 import React, { useEffect, useState } from 'react'
-import LectureInRow from './LectureInRow';
-// import classes from './Row.module.css'
-import classes from './LectureLists.module.css'
+import SlideCard from './SlideCard';
 
+const SlideLists = (props) => {
+    const [slides, setSlide] = useState([]);
+  
+    const slideList = slides.map(slide =>
+        <li>
+            <h3>{slide.mentor}</h3>
+            <div>{slide.lecture}</div>
+            <div>{slide.date}</div>
+            <img src={slide.image} />
+            <div>{slide.headcount}</div>
+        </li>
+    );
 
-const LectureLists = (props) => {
-    console.log('Row renderd');
-    
-    const [lectures,setLectures] = useState([]);
-    
-    const lecturesList = lectures.map(lecture =>
-        <LectureInRow
-                key={lecture.id}
-                id={lecture.id}
-                lecture={lecture.lecture}
-                mentor={lecture.mentor}
-                date={lecture.date}
-                image={lecture.image}
-                headcount={lecture.headcount}
-        />    
-    )
-    console.log('렌더링' + lecturesList);
-        
-    
     useEffect(() => {
         const fetchLectures = async() => {
             const response = await fetch(props.fetchUrl);
@@ -42,17 +33,18 @@ const LectureLists = (props) => {
                     headcount: responseData[key].headcount,
                 });
             }
-            setLectures(lecturesData);
+            setSlide(lecturesData);
         }
         fetchLectures().catch(error => console.log(error));
     }, []);
 
   
     return (
-    <div className={classes.lectures}>
-        {lecturesList}
-    </div>
-  )
+        <section>
+            <SlideCard Slide = {slideList}>
+            </SlideCard>
+        </section>
+    )
 }
 
-export default LectureLists
+export default SlideLists
