@@ -1,21 +1,29 @@
 import React, { useEffect, useState } from 'react'
 import SlideCard from './SlideCard';
+import classes from './SlideLists.module.css'
 
 const SlideLists = (props) => {
     const [slides, setSlide] = useState([]);
-  
+
     const slideList = slides.map(slide =>
-        <li>
-            <h3>{slide.mentor}</h3>
-            <div>{slide.lecture}</div>
-            <div>{slide.date}</div>
-            <img src={slide.image} />
-            <div>{slide.headcount}</div>
-        </li>
+        <section className={classes.slide} style={{
+            backgroundImage :`url(${slide.image})`,
+            backgroundSize : `cover`,
+            backgroundPosition: "center center"
+        }}>
+
+            {/* <img className={classes.imagestlye} src={slide.image} /> */}
+            <div className={classes.box}>
+                <h2 className={classes.headtext}>{slide.lecture}</h2>
+                <div className={classes.text}>{slide.mentor} | {slide.date}</div>
+    
+            </div>
+            <br />
+        </section>
     );
 
     useEffect(() => {
-        const fetchLectures = async() => {
+        const fetchLectures = async () => {
             const response = await fetch(props.fetchUrl);
             console.log(response.ok);
 
@@ -38,10 +46,10 @@ const SlideLists = (props) => {
         fetchLectures().catch(error => console.log(error));
     }, []);
 
-  
+
     return (
-        <section>
-            <SlideCard Slide = {slideList}>
+        <section className={classes.containSlide}>
+            <SlideCard Slide={slideList}>
             </SlideCard>
         </section>
     )

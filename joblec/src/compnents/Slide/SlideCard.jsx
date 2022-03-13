@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-
+import classes from './SlideCard.module.css'
 const SlideCard = (props) => {
   let slideIndex = 4;
   
@@ -16,35 +16,41 @@ const SlideCard = (props) => {
           setCurrentSlide(currentSlide + 1);
           // console.log(currentSlide);
         }
-       }, 2000);
+       }, 2000 ||!PrevSlide(true) || !NextSlide(true));
     });
 
-  const NextSlide = () => {
-    if (currentSlide >= slideIndex - 1 ) {
-      setCurrentSlide(0);
-    } else {
-      setCurrentSlide(currentSlide + 1);
-    }
-  };
+    const NextSlide = () => {
+      if (currentSlide >= slideIndex - 1 ) {
+        setCurrentSlide(0);
+        clearTimeout(currentSlide);
+      } else {
+        setCurrentSlide(currentSlide + 1);
+        clearTimeout(currentSlide);
+      }
+    };
+  
+    const PrevSlide = () => {
+      // console.log(slideList[0]);
+      clearTimeout(currentSlide);
+      if (currentSlide === 0) {
+        setCurrentSlide(slideIndex - 1);
+        clearTimeout(currentSlide);
+      } else {
+        setCurrentSlide(currentSlide - 1);
+        clearTimeout(currentSlide);
+      }
+    };
 
-  const PrevSlide = () => {
-    console.log(slideList[0]);
-    
-    if (currentSlide === 0) {
-      setCurrentSlide(slideIndex - 1);
-    } else {
-      setCurrentSlide(currentSlide - 1);
-    }
-  };
 
 
 
   return (
-    <div>
+    <div className={classes.topslide}>
       
       {props.Slide[currentSlide]}
-      <button onClick={PrevSlide}>Prev</button>
-      <button onClick={NextSlide}>Next</button>
+
+      {/* <button onClick={PrevSlide}>Prev</button>
+      <button onClick={NextSlide}>Next</button> */}
     </div>
   )
 }
